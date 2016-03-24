@@ -1,7 +1,9 @@
-module.exports = (text, callback) => {
-  if (!callback) {
-    callback = console.log
-  }
+module.exports = goodbye => {
+  goodbye.hello = (text, callback) => {
+    if (!callback) {
+      callback = console.log
+    }
 
-  callback((text || 'Hello, Flatiron!').split('').join('-'))
+    callback((text || 'Hello, Flatiron!').split('').join('-'))
+  }
 }
