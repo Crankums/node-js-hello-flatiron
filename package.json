@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/node-js-hello-flatiron#readme",
   "peerDependencies": {
-    "pluggable-flatiron": "learn-co-curriculum/pluggable-flatiron#0.1.0"
+    "pluggable-flatiron": "learn-co-curriculum/pluggable-flatiron"
   }
 }
